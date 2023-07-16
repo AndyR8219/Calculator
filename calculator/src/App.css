@@ -1,0 +1,47 @@
+.container {
+	width: 250px;
+	margin: 20px auto;
+	display: grid;
+	justify-content: center;
+	gap: 5px;
+	background-color: rgb(190, 190, 190);
+	grid-template-areas: 'input input input';
+
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.input {
+	width: 99%;
+	height: 20px;
+	border: 1px solid black;
+	font-size: large;
+	font-weight: bold;
+}
+
+.wrapInput {
+	grid-area: input;
+}
+
+.buttonNumber,
+.plus,
+.minus,
+.cancel,
+.equals {
+	height: 40px;
+	width: 100%;
+}
+
+.plus,
+.minus,
+.cancel,
+.equals {
+	background-color: rgb(103, 103, 250);
+}
+
+.green {
+	color: green;
+}
+
+.black {
+	color: black;
+}
